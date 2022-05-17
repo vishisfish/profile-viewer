@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+
+<div>
+<form action="/" method="post" class="form">
+    <input type="text" id="userID" name="userID" placeholder="search">
+    <button type="submit">Go</button>
+</form>
+</div>
+
+<div class="box">
+    <p>ID:  <%=username%> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Name: <%=name%> </p>
+    </div>
+
+<img src=<%= imageUrl %> alt="">
+
+<div class="box">
+<p>followers:  <%=followers%> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; following: <%=following%> </p>
+</div>
+
+<% console.log(repos) %>
+<div class="box">
+
+<% for(var i=0 ; i<repos.length ; i++ ){ %>
+    <a class="item" href="<%=repos[i].html_url%>"> <%=repos[i].name%> </a> 
+    <% } %>
+
+</div>
+<%- include("partials/footer"); -%>

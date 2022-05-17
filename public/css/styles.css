@@ -1,0 +1,225 @@
+
+s.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  min-height: 1000px;
+  font-family: "helvetica neue";
+}
+
+header {
+  background-color: #a683e3;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: #00204a;
+}
+
+.box {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #e4e9fd;
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+
+
+/* 
+#heading {
+  background-color: #a683e3;
+  text-align: center;
+} */
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  justify-content: center;
+  background: #fff;
+  border-radius: 7px;
+  margin:1rem;
+}
+
+.note {
+  border-radius: 7px;
+  padding: 10px;
+  width: 240px;
+  margin: 10px;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+  object-fit: fill;
+  margin-top: 3rem;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #a683e3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+
+.img-github {
+  margin-top: 32px;
+  width: 160px;
+  height: 160px;
+}
+
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+/* body {
+    height: 100vh;
+    margin: 0;
+    color: #222;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(71, 43, 186);
+    background: linear-gradient(0deg, rgb(233, 162, 229) 0%, rgba(44, 25, 121, 1) 100%);
+  }
+  
+  .content {
+    background: white;
+    width: 380px;
+    height: 480px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 16px #222;
+  }
+  
+  .content-bottom {
+    margin: 10px 0;
+  }
+  
+  h1 {
+    font-family: 'Arvo', serif;
+    font-size: 26px;
+    margin: 32px auto 24px;
+    line-height: 40px;
+  }
+  
+  .img-github {
+    margin-top: 32px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    display: block;
+    width: 220px;
+    line-height: 38px;
+    padding-top: 2px;
+    border-radius: 20px;
+    color: white;
+    background: rgb(238, 180, 226);
+    margin: 0 auto;
+    border: none;
+    font-size: 14px;
+  }
+  
+  input[type='text'] {
+    width: 180px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+  }
+  
+  .sign-in-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .party-popper {
+    display: inline-block;
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+   */
